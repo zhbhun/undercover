@@ -1,0 +1,25 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="amber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <!-- 最外层装饰菱形 -->
+  <polygon points="50,8 92,50 50,92 8,50" fill="none" stroke="#D4A574" stroke-width="1" opacity="0.2"/>
+  <!-- 外层菱形 -->
+  <polygon points="50,15 85,50 50,85 15,50" fill="none" stroke="url(#amber-grad)" stroke-width="3.5"/>
+  <!-- 中层菱形 -->
+  <polygon points="50,28 72,50 50,72 28,50" fill="#D4A574" opacity="0.1"/>
+  <polygon points="50,28 72,50 50,72 28,50" fill="none" stroke="#D4A574" stroke-width="2" opacity="0.6"/>
+  <!-- 内层菱形 -->
+  <polygon points="50,38 62,50 50,62 38,50" fill="none" stroke="#D4A574" stroke-width="1.2" opacity="0.3"/>
+  <!-- 角点装饰 -->
+  <circle cx="50" cy="15" r="3" fill="#D4A574" opacity="0.8"/>
+  <circle cx="85" cy="50" r="3" fill="#D4A574" opacity="0.8"/>
+  <circle cx="50" cy="85" r="3" fill="#D4A574" opacity="0.8"/>
+  <circle cx="15" cy="50" r="3" fill="#D4A574" opacity="0.8"/>
+  <!-- 偏移圆点 - 核心 -->
+  <circle cx="58" cy="50" r="7" fill="url(#amber-grad)"/>
+  <circle cx="58" cy="50" r="4" fill="#0a0a0f" opacity="0.3"/>
+</svg>
