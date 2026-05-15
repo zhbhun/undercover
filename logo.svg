@@ -6,20 +6,20 @@
     </linearGradient>
   </defs>
   <!-- 最外层装饰菱形 -->
-  <polygon points="50,8 92,50 50,92 8,50" fill="none" stroke="#D4A574" stroke-width="1" opacity="0.2"/>
+  <polygon points="50,12 88,50 50,88 12,50" fill="none" stroke="#D4A574" stroke-width="1" opacity="0.2"/>
   <!-- 外层菱形 -->
-  <polygon points="50,15 85,50 50,85 15,50" fill="none" stroke="url(#amber-grad)" stroke-width="3.5"/>
+  <polygon points="50,18.3 81.7,50 50,81.7 18.3,50" fill="none" stroke="url(#amber-grad)" stroke-width="3"/>
   <!-- 中层菱形 -->
-  <polygon points="50,28 72,50 50,72 28,50" fill="#D4A574" opacity="0.1"/>
-  <polygon points="50,28 72,50 50,72 28,50" fill="none" stroke="#D4A574" stroke-width="2" opacity="0.6"/>
+  <polygon points="50,30 70,50 50,70 30,50" fill="#D4A574" opacity="0.1"/>
+  <polygon points="50,30 70,50 50,70 30,50" fill="none" stroke="#D4A574" stroke-width="1.8" opacity="0.6"/>
   <!-- 内层菱形 -->
-  <polygon points="50,38 62,50 50,62 38,50" fill="none" stroke="#D4A574" stroke-width="1.2" opacity="0.3"/>
+  <polygon points="50,39 61,50 50,61 39,50" fill="none" stroke="#D4A574" stroke-width="1" opacity="0.3"/>
   <!-- 角点装饰 -->
-  <circle cx="50" cy="15" r="3" fill="#D4A574" opacity="0.8"/>
-  <circle cx="85" cy="50" r="3" fill="#D4A574" opacity="0.8"/>
-  <circle cx="50" cy="85" r="3" fill="#D4A574" opacity="0.8"/>
-  <circle cx="15" cy="50" r="3" fill="#D4A574" opacity="0.8"/>
+  <circle cx="50" cy="18.3" r="2.5" fill="#D4A574" opacity="0.8"/>
+  <circle cx="81.7" cy="50" r="2.5" fill="#D4A574" opacity="0.8"/>
+  <circle cx="50" cy="81.7" r="2.5" fill="#D4A574" opacity="0.8"/>
+  <circle cx="18.3" cy="50" r="2.5" fill="#D4A574" opacity="0.8"/>
   <!-- 偏移圆点 - 核心 -->
-  <circle cx="58" cy="50" r="7" fill="url(#amber-grad)"/>
-  <circle cx="58" cy="50" r="4" fill="#0a0a0f" opacity="0.3"/>
+  <circle cx="57" cy="50" r="6.5" fill="url(#amber-grad)"/>
+  <circle cx="57" cy="50" r="3.5" fill="#0a0a0f" opacity="0.3"/>
 </svg>
